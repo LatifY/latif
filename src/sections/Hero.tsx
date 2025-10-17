@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="section-spacing pt-32">
       <div className="content-wrapper">
         <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-          <span className="gradient-text">Latif Yılmaz</span>
+          <span className="gradient-text">Hi, I'm Latif</span>
         </h1>
 
         <p className="text-xl text-gray-700 dark:text-gray-400 mb-8 max-w-xl">

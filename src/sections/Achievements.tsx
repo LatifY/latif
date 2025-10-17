@@ -30,7 +30,7 @@ export const Achievements = () => {
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-800 dark:text-gray-400 underline hover:text-purple-600 dark:hover:text-purple-400 hover:no-underline"
+                      className="text-gray-800 dark:text-gray-400 underline hover:text-blue-600 dark:hover:text-blue-400 hover:no-underline"
                     >
                       {link.label || link.type}
                     </a>

@@ -63,16 +63,20 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-800 dark:text-gray-400 underline hover:text-purple-600 dark:hover:text-purple-400 hover:no-underline"
+                  className="text-gray-800 dark:text-gray-400 underline hover:text-blue-600 dark:hover:text-blue-400 hover:no-underline"
                 >
                   {link.type === 'github' && 'GitHub'}
                   {link.type === 'itchio' && 'Itch.io'}
                   {link.type === 'video' && 'Video'}
+                  {link.type === 'steam' && 'Steam'}
                   {link.type === 'live' && 'Live Demo'}
+                  {link.type === 'linkedin' && 'LinkedIn'}
+                  {link.type === 'website' && 'Website'}
+                  {link.type === 'googleplay' && 'Google Play'}
                 </a>
               ))}
               <span className="text-gray-500 dark:text-gray-500 text-xs ml-auto">
-                {new Date(project.date).toLocaleDateString('en-US', { 
+                {project.date && new Date(project.date).toLocaleDateString('en-US', { 
                   year: 'numeric', 
                   month: 'short' 
                 })}

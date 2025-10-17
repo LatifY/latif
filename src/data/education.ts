@@ -4,7 +4,7 @@ export const education: Education[] = [
   {
     id: '1',
     institution: '🦋 Gebze Technical University',
-    degree: 'Bachelor of Science in Computer Engineering',
+    degree: 'Bachelor of Science in Computer Engineering - Gebze, Kocaeli',
     duration: '2023 - Present',
     gpa: '3.6/4.0',
     achievements: [
@@ -15,7 +15,7 @@ export const education: Education[] = [
     {
     id: '2',
     institution: 'Maltepe High School',
-    degree: 'High School Diploma',
+    degree: 'High School Diploma - Maltepe, Istanbul',
     duration: '2019 - 2023',
     achievements: [
       'Erasmus+ Program in Slovakia',
