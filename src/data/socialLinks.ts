@@ -3,7 +3,7 @@ import { SocialLink } from '../types';
 export const socialLinks: SocialLink[] = [
   {
     platform: 'GitHub',
-    url: 'https://github.com/latifyilmaz',
+    url: 'https://github.com/LatifY',
     icon: 'github'
   },
   {
@@ -13,7 +13,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: 'Itch.io',
-    url: 'https://latifyilmaz.itch.io',
+    url: 'https://lativegames.itch.io',
     icon: 'itchio'
   }
 ];
